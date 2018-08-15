@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StudentController {
 
-	@GetMapping("/addStudent")
+	@GetMapping("/welcome")
 	public ResponseEntity<String> welcome() 
 	{
 		return new ResponseEntity<String>("Welome to candid", HttpStatus.CREATED); // 201
